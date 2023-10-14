@@ -116,15 +116,21 @@
     justify-content: space-evenly;
 }
 
+.projetos img {
+    border-radius: 20px;
+}
+
 .projetos button {
     height: 30px;
     width: 90px;
+    background-color: #f3edff;
     border: none;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.btn {
-    cursor.pointer
+.projetos button:hover {
+    color: #FFF;
+    background-color: #b694ff;
 }
