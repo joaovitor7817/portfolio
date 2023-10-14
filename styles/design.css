@@ -1,0 +1,125 @@
+#header {
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #b694ff;
+}
+
+.header-nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header-nav ul li {
+    cursor: pointer;
+}
+
+.header-nav ul li:hover {
+    border-bottom: 3px solid white;
+    padding-bottom: 2px;
+}
+
+#principal {
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: #e4d7ff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.about-me h2 {
+    font-weight: 800;
+    display: inline;
+    border-bottom: 2.6px solid #fff;
+}
+
+.about-me span {
+    display: block;
+    padding: 5px 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.about-me p {
+    width: 90%;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.habilidades {
+    padding: 12px;
+    margin: auto;
+    width: 97%;
+    background-color: #f3edff;
+    border-radius: 10px;
+}
+
+.habilidades h3 {
+    font-weight: 700;
+}
+
+.hab123 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.hab456 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.hab789 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.item {
+    justify-content: space-around;
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .item {
+        flex: 0 0 calc(50% - 20px);
+    }
+
+}
+
+.projetos h2 {
+    margin-top: 50px;
+}
+
+.projetos h3 {
+    margin: 20px 0;
+}
+
+.projetos img {
+    width: 97%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+.botao {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projetos button {
+    height: 30px;
+    width: 90px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
