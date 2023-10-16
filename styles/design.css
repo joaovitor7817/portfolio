@@ -133,29 +133,30 @@
     border-radius: 20px;
 }
 
-.botao {
+.navegacao {
     display: flex;
     justify-content: space-evenly;
 }
 
-.botao a button {
+.navegacao a {
     height: 30px;
     width: 90px;
     background-color: #f3edff;
     border: none;
-    padding: 5px;
+    padding: 3px;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.121);
     transition: background-color 0.3s;
+    text-align: center;
 }
 
-.botao a button:hover {
+.navegacao a:hover {
     background-color: #B694FF;
     color: #FFF;
 }
 
-.botao a button span{
+.navegacao a span{
     font-weight: 600;
 }
 
